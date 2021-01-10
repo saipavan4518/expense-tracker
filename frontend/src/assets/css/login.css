@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@media only screen and (max-width: 600px) {
+    .loginDiv{
+        margin-top: 250px;
+        margin-left: 20px;
+        width:400px;
+    }
+    .loginDiv button{
+        margin-left: 160px;
+    }
+    h2{
+        padding-left: 15%;
+        font-family: 'Satisfy', cursive;
+    }
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

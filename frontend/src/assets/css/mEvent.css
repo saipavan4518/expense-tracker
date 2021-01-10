@@ -1,0 +1,99 @@
+#table-wrapper {
+    position:relative;
+    width:500px;
+    background-color: aliceblue;
+}
+#table-scroll {
+    height:300px;
+    overflow:auto;  
+    margin-top:20px;
+}
+#table-wrapper table {
+    width:100%;      
+}
+thead{
+    position: sticky;
+    top: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+@media only screen and (max-width: 600px) {
+    .m{
+        background-color:rgb(212, 211, 206);
+    }
+    #date{
+        position: absolute;
+        left: 180px;
+    }
+    .card{
+        background-color: antiquewhite;
+    }
+    h1{
+        padding-left: 5%;
+        padding-bottom: 5%;
+        font-family: 'Dancing Script', cursive;
+    }
+    #logoutButton{
+        margin-top: 20px;
+    }
+    #table-wrapper {
+        position:relative;
+        width:440px;
+        background-color: aliceblue;
+    }
+    #table-scroll {
+        height:300px;
+        overflow:auto;  
+        margin-top:20px;
+    }
+    #table-wrapper table {
+        width:100%;      
+    }
+    thead{
+        position: sticky;
+        top: 0;
+    }
+    #formbutton{
+        margin-left: 114px;
+        width: 200px;
+    }
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .m{
+        background-color:rgb(212, 211, 206);
+    }
+    h1{
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .m{
+        background-color:rgb(212, 211, 206);
+    }
+    h1{
+        font-family: 'Dancing Script', cursive;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .m{
+        background-color:rgb(212, 211, 206);
+    }
+    h1{
+        font-family: 'Dancing Script', cursive;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .m{
+        background-color:rgb(212, 211, 206);
+    }
+    h1{
+        font-family: 'Dancing Script', cursive;
+    }
+}

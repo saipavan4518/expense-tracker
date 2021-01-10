@@ -1,0 +1,17 @@
+#table-wrapper {
+    position:relative;
+    width:700px;
+    background-color: aliceblue;
+}
+#table-scroll {
+    height:400px;
+    overflow:auto;  
+    margin-top:20px;
+}
+#table-wrapper table {
+    width:100%;      
+}
+thead{
+    position: sticky;
+    top: 0;
+}
